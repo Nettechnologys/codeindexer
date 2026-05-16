@@ -1,0 +1,22 @@
+# IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+target/
+build/
+dist/
+node_modules/
+*.log
+
+# Environment / secrets
+.env
+.env.local
+*.key
+*.pem
