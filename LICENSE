@@ -1,3 +1,17 @@
+SCOPE NOTICE
+============
+
+This MIT license applies ONLY to the textual and documentation files
+contained in this repository (README.md, SECURITY.md, this LICENSE file,
+and similar). It does NOT apply to the Code Indexer software product,
+which is proprietary and is distributed only as compiled binaries under
+the commercial terms published at https://codeindexer.dev/terms.
+
+The source code of the Code Indexer binary is not part of this repository
+and is not made available under this license.
+
+--------------------------------------------------------------------------
+
 MIT License
 
 Copyright (c) 2026 NetTechnologys s.r.o.
