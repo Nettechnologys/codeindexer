@@ -14,6 +14,8 @@ The advisories are also published at [codeindexer.dev/security/advisories](https
 | [CI-SA-2026-005](CI-SA-2026-005.md) | Per-key project authorization was not enforced across MCP tools | High | v0.2.0 – v0.11.0 | Fully remediated in: v0.12.0 | 2026-10-21 | [codeindexer.dev](https://codeindexer.dev/security/advisories/ci-sa-2026-005) |
 | [CI-SA-2026-009](CI-SA-2026-009.md) | Archive member paths could escape the extraction directory | Medium | v0.2.0 – v0.6.0 | First fixed version: v0.7.0 | 2026-10-21 | [codeindexer.dev](https://codeindexer.dev/security/advisories/ci-sa-2026-009) |
 
+**Version identification:** Binaries of release v0.2.0 report version 0.1.0 (for example in `--version` output and in the MCP server information). Treat a build that reports 0.1.0 as affected; builds reporting 0.1.0 that predate release v0.2.0 were not assessed and must not be assumed unaffected. Applies to [CI-SA-2026-001](CI-SA-2026-001.md), [CI-SA-2026-003](CI-SA-2026-003.md), [CI-SA-2026-005](CI-SA-2026-005.md), [CI-SA-2026-009](CI-SA-2026-009.md).
+
 These advisories document previously remediated vulnerabilities, consolidated for publication during an October 2026 retrospective review of CodeIndexer's development history. The review covered releases v0.2.0 through v0.12.0.
 
 **Recommended upgrade:** v0.12.0 or later, which includes the fixes for every advisory currently published in this collection.
